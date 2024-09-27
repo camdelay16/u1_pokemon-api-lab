@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex</title>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script defer src="script.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1>Pok&#233;Dex</h1><img class="pokeball" src="https://art.ngfiles.com/images/386000/386577_stardoge_8-bit-pokeball.png?f1446737358"/>
+        <input class="searchBar" value="" placeholder="Choose your Pok&#233;mon!" type="text">
+        <button class="btn">Search</button>
+    </header>
+    <div class="pokemonInfo">
+        <div class="pokemonImgBox">
+            <img class="imgContainer" />
+            <p id="flavorText"></p>
+        </div>
+
+        <div class="attributeBox">
+            <ul class="attributeBox">
+                <li id="name"></li>
+                <li id="iD"></li>
+                <li id="types"></li>
+                <li id="weight"></li>
+                <li id="height"></li>
+                <li id="ability"></li>
+                <li id="evoFrom"></li>
+                <li id="generation"></li>
+                <li id="moves"></li>
+
+            </ul>
+        </div>
+    </div>
+
+</body>
+
+</html>
